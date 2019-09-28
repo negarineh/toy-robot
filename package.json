@@ -1,0 +1,21 @@
+{
+  "name": "toy-robot",
+  "version": "1.0.0",
+  "description": "Toy Robot Simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "robot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "toy-robot": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.4"
+  }
+}
