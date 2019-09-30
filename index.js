@@ -46,7 +46,7 @@ const move = (moves, positions, directions) => {
             case 'NORTH':
                 if (position[1] === 4) {
                     console.log(
-                        chalk.red.bold(`This is ${directions} part of table`)
+                        chalk.red.bold(`This is ${directions} part of the table`)
                     )
                 } else {
                     position = [position[0], position[1] + 1];
@@ -54,7 +54,7 @@ const move = (moves, positions, directions) => {
                 break;
             case 'EAST':
                 if (positions[0] === 0) {
-                    console.log(chalk.red.bold('This is EAST part of table'))
+                    console.log(chalk.red.bold('This is EAST part of the table'))
                 } else {
                     position = [positions[0] - 1, positions[1]];
                 }
@@ -62,7 +62,7 @@ const move = (moves, positions, directions) => {
             case 'SOUTH':
                 if (positions[1] === 0) {
                     console.log(
-                        chalk.red.bold('This is SOUTH part of table')
+                        chalk.red.bold('This is SOUTH part of the table')
                     )
                 } else {
                     position = [positions[0], positions[1] - 1];
@@ -71,7 +71,7 @@ const move = (moves, positions, directions) => {
             case 'WEST':
                 if (positions[0] === 4) {
                     console.log(
-                        chalk.red.bold('This is WEST part of table')
+                        chalk.red.bold('This is WEST part of the table')
                     )
                 } else {
                     position = [positions[0] + 1, positions[1]];
